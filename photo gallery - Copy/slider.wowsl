@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>2.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>true</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>true</Controls>
+            <GalleryName>slider</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>blinds</ImageEffect>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/quiet/</ImageTemplate>
+            <ImageTemplateName>Quiet</ImageTemplateName>
+            <ImageWidth>960</ImageWidth>
+            <Images>true</Images>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/teresa/Documents/MACA-2800/photo gallery/index.html</PublishFileName>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPath>C:/Users/teresa/Documents/MACA-2800/photo gallery</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>true</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateName>quiet</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>top</TooltipPos>
+            <noFrame>false</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/teresa/Documents/MACA-2800/photo gallery/P1000051.JPG</url>
+                <title>P1000051</title>
+            </Image>
+            <Image>
+                <url>C:/Users/teresa/Documents/MACA-2800/photo gallery/P1000089.JPG</url>
+                <title>P1000089</title>
+            </Image>
+            <Image>
+                <url>C:/Users/teresa/Documents/MACA-2800/photo gallery/P1000092.JPG</url>
+                <title>P1000092</title>
+            </Image>
+            <Image>
+                <url>C:/Users/teresa/Documents/MACA-2800/photo gallery/P1000093.JPG</url>
+                <title>P1000093</title>
+            </Image>
+            <Image>
+                <url>C:/Users/teresa/Documents/MACA-2800/photo gallery/P1000105.JPG</url>
+                <title>P1000105</title>
+            </Image>
+            <Image>
+                <url>C:/Users/teresa/Documents/MACA-2800/photo gallery/P1000107.JPG</url>
+                <title>P1000107</title>
+            </Image>
+            <Image>
+                <url>C:/Users/teresa/Documents/MACA-2800/photo gallery/P1000122.JPG</url>
+                <title>P1000122</title>
+            </Image>
+            <Image>
+                <url>C:/Users/teresa/Documents/MACA-2800/photo gallery/P1000145.JPG</url>
+                <title>P1000145</title>
+            </Image>
+            <Image>
+                <url>C:/Users/teresa/Documents/MACA-2800/photo gallery/P1000147.JPG</url>
+                <title>P1000147</title>
+            </Image>
+            <Image>
+                <url>C:/Users/teresa/Documents/MACA-2800/photo gallery/P1010965.JPG</url>
+                <title>P1010965</title>
+            </Image>
+            <Image>
+                <url>C:/Users/teresa/Documents/MACA-2800/photo gallery/P1010976.JPG</url>
+                <title>P1010976</title>
+            </Image>
+            <Image>
+                <url>C:/Users/teresa/Documents/MACA-2800/photo gallery/P1020178.JPG</url>
+                <title>P1020178</title>
+            </Image>
+            <Image>
+                <url>C:/Users/teresa/Documents/MACA-2800/photo gallery/P1020223.JPG</url>
+                <title>P1020223</title>
+            </Image>
+            <Image>
+                <url>C:/Users/teresa/Documents/MACA-2800/photo gallery/st-lucia-island-located-between-st-vincent-the-grenadines-and-barbados.jpg</url>
+                <title>st-lucia-island-located-between-st-vincent-the-grenadines-and-barbados</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
