@@ -1,0 +1,30 @@
+@import "mixins";
+
+$mycolorVar: brown;
+$wrapperWidth:800px; 
+$items:5;
+
+
+body {
+	color:$mycolorVar;
+
+     }
+
+#mydiv {
+
+      border:solid 1px $mycolorVar;
+      @include vendor(transform, translate(100px, 100px));
+
+     ul {
+
+	background-color:$mycolorVar;
+	color: #fff;
+	  }
+
+	  li {
+	   float:left;
+	   width:$wrapperWidth / $items;
+	   @include vendor (transition, opacity 0.5s ease-in);
+	  }
+}
+	
