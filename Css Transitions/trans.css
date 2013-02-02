@@ -1,0 +1,17 @@
+#mydiv {
+     height: 200px;
+     width: 200px;
+     background-color: red;
+     /*-moz-transform:translate(150px, 200px);*/
+     /*-moz-transform:rotate(76deg);*/
+     /*-moz-transform:scale(2) rotate(76deg) translate(50px, 50px);
+     /*	-moz-transform-origin:right top;*/
+     /*	-moz-transform: rotate3d (3,2,1 20deg);*/
+     -moz-transition:-moz-transform 2s ease-in;
+
+}
+
+#mydiv:hover {
+
+	-moz-transform:rotateY(360deg) scale(2);
+}

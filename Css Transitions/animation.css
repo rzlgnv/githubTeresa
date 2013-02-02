@@ -1,0 +1,30 @@
+#mydiv{
+	width: 0px;
+	height: 0px;
+	background-color: red;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	/*-moz-animation-name:myTeresaAnim;
+	-moz-animation-duration:3.25s;
+	-moz-animation-timing-function:ease-in;  
+	-moz-animation:myTeresaAnim 3.25s ease-in both; */
+	-moz-animation:myTeresaAnim 3.25s ease-in infinite; 
+
+}
+
+@-moz-keyframes myTeresaAnim {
+     
+     0%  {
+          width: 300px;
+          height: 300px;
+          background-color: blue;
+     }
+     100%  {
+           width: 1000px;
+           height: 1000px;
+           background-color: red;
+
+     }
+	
+
+}
+
