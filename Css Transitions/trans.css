@@ -8,10 +8,31 @@
      /*	-moz-transform-origin:right top;*/
      /*	-moz-transform: rotate3d (3,2,1 20deg);*/
      -moz-transition:-moz-transform 2s ease-in;
+     -webkit-transition:-moz-transform 2s ease-in;
+     -o-transition:-moz-transform 2s ease-in;
+     -ms-transition:-moz-transform 2s ease-in;
+     transition:-moz-transform 2s ease-in;
 
 }
 
 #mydiv:hover {
 
 	-moz-transform:rotateY(360deg) scale(2);
+}
+#mydiv:hover {
+
+     -webkit-transform:rotateY(360deg) scale(2);
+}
+#mydiv:hover {
+
+     -ms-transform:rotateY(360deg) scale(2);
+}
+#mydiv:hover {
+
+     -o-transform:rotateY(360deg) scale(2);
+}
+#mydiv:hover {
+
+     
+     transform:rotateY(360deg) scale(2);
 }

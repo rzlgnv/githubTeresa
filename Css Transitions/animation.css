@@ -8,23 +8,25 @@
 	-moz-animation-timing-function:ease-in;  
 	-moz-animation:myTeresaAnim 3.25s ease-in both; */
 	-moz-animation:myTeresaAnim 3.25s ease-in infinite; 
+	-webkit-animation:myTeresaAnim 3.25s ease-in infinite; 
+	-ms-animation:myTeresaAnim 3.25s ease-in infinite; 
+	-o-animation:myTeresaAnim 3.25s ease-in infinite; 
+	animation:myTeresaAnim 3.25s ease-in infinite; 
 
-}
+} 
 
-@-moz-keyframes myTeresaAnim {
-     
-     0%  {
-          width: 300px;
-          height: 300px;
-          background-color: blue;
-     }
-     100%  {
-           width: 1000px;
-           height: 1000px;
-           background-color: red;
+/*.polaroid {
+  width: 150px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  -webkit-box-shadow: 2px 2px 3px rgba(135, 139, 144, 0.4);
+  -moz-box-shadow: 2px 2px 3px rgba(135, 139, 144, 0.4);
+  box-shadow: 2px 2px 3px rgba(135, 139, 144, 0.4);
+}*/
 
-     }
+
+
+
 	
-
-}
 
