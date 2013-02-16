@@ -1,0 +1,27 @@
+body{
+ background-color: #59def8;
+}
+
+#rocket {
+	background-image: url('logo-animation-sprite.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 85px;
+	height: 82px;
+
+
+}
+
+@webkit-keyframe rocket {
+
+	0% {
+
+		background-position: left top;
+	    }
+	100% {
+        background-position: -425px 0px
+
+	}
+
+
+}
