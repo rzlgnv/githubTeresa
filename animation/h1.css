@@ -1,0 +1,36 @@
+
+@charset "utf-8";
+
+h3 {  
+	animation-duration: 10s; 
+    animation-name: slidein;
+    animation-iteration-count:infinite;
+ }
+
+@-moz-keyframes slidein  {  
+
+     from
+            {    margin-left: 100%;    width: 300%  }  
+     to       {    margin-left: 0%;    width: 100%;  }
+    }
+@-webkit-keyframes slidein  {  
+     from
+            {    margin-left: 100%;    width: 300%  }  
+     to       {    margin-left: 0%;    width: 100%;  }
+    }   
+@-ms-keyframes slidein  {  
+     from
+            {    margin-left: 100%;    width: 300%  }  
+     to       {    margin-left: 0%;    width: 100%;  }
+    }  
+@-o-keyframes slidein  {  
+     from
+            {    margin-left: 100%;    width: 300%  }  
+     to       {    margin-left: 0%;    width: 100%;  }
+    }      
+@keyframes slidein  {  
+     from
+            {    margin-left: 100%;    width: 300%  }  
+     to       {    margin-left: 0%;    width: 100%;  }
+    }
+}

@@ -12,9 +12,9 @@ body{
 
 }
 
-@webkit-keyframe rocket {
+@webkit-keyframes #rocket {
 
-	0% {
+	50% {
 
 		background-position: left top;
 	    }
