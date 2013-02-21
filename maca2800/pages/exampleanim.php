@@ -167,13 +167,12 @@
         </header>
 
             
-<section>
-         <script type="text/javascript" src="http://cdn.widgetserver.com/syndication/subscriber/InsertWidget.js"></script><script type="text/javascript">if (WIDGETBOX) WIDGETBOX.renderWidget('78159374-af6b-466c-a940-3b51e148b40b');</script>
+<section class="maukie">
+        <script type="text/javascript" src="http://cdn.widgetserver.com/syndication/subscriber/InsertWidget.js"></script><script type="text/javascript">if (WIDGETBOX) WIDGETBOX.renderWidget('78159374-af6b-466c-a940-3b51e148b40b');</script>
 <noscript>Get the <a href="http://www.widgetbox.com/widget/maukie-the-virtual-cat">Maukie - the virtual cat</a> widget and many other <a href="http://www.widgetbox.com/">great free widgets</a> at <a href="http://www.widgetbox.com">Widgetbox</a>! Not seeing a widget? (<a href="http://support.widgetbox.com/">More info</a>)</noscript>
-         
-     
+              
  </section>
-         <article class="writeup">
+         <article class="writeup2">
                  <h2>Widgets</h2>
                   <p><br> Move your curser around Maukie and she'll try to grab your curser.  Pet Maukie and she'll purr or touch her face and she meows. </p>
                </article> 
@@ -225,11 +224,11 @@
   </div>
 </div>
 
-         <div id='myanim'>
-  <!--      <article class="animWriteup"> 
+         <div id="myanim">
+        <article class="animWriteup"> 
          <h2>CSS Animation</h2> 
        <p><br> CSS animation can be used instead of Flash. CSS animation keyframes is not supported by Explorer </p>                </p>
-            </article>   -->      
+            </article>    
     </div>   
         <article class="banner">
                 <img src="assets/images/banner.png" width ='130' height='130' alt='logo' />
