@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+#myanim {
+
+width:100px;
+height:100px;
+background:red;
+
+-moz-animation:myanim 5s; /* Firefox */
+-webkit-animation:myanim 5s; /* Safari and Chrome */
+-o-animation:myanim 5s; /* Opera */
+animation:myanim 5s;
+}
+
+
+@-moz-keyframes myanim /* Firefox */
+{
+0%   {background:red;}
+25%  {background:yellow;}
+50%  {background:blue;}
+100% {background:green;}
+}
+
+@-webkit-keyframes myanim /* Safari and Chrome */
+{
+0%   {background:red;}
+25%  {background:yellow;}
+50%  {background:blue;}
+100% {background:green;}
+}
+
+@-o-keyframes myanim /* Opera */
+{
+0%   {background:red;}
+25%  {background:yellow;}
+50%  {background:blue;}
+100% {background:green;}
+}
+@keyframes myanim
+{
+0%   {background:red;}
+25%  {background:yellow;}
+50%  {background:blue;}
+100% {background:green;}
+}
+#mydiv {
+     animation-name:myAnimation;
+	 animation-duration: 5s;
+	 animation-timing-function:ease-in-out;
+	 animation-iteration-count:infinite;
+}	
+
+
+

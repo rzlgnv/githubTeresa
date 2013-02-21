@@ -1,0 +1,59 @@
+#myanim {
+     height: 50px;
+     width: 50px;
+     background-color:red;
+     -moz-animation:myAnimation 5s; /* Firefox */
+	-webkit-animation:myAnimation 5s; /* Safari and Chrome */
+	-o-animation:myAnimation 5s; /* Opera */
+	animation:myAnimation 5s;
+
+}
+@-webkit-keyframes myAnimation {
+     from {
+	       width: 100px;
+		   height: 100px;
+        }
+     to {
+          width: 200px;
+		  height: 200px;
+       }
+     }
+	 
+@-moz-keyframes myAnimation {
+     from {
+	       width: 100px;
+		   height: 100px;
+        }
+     to {
+          width: 200px;
+		  height: 200px;
+       }
+     }	 
+@-ms-keyframes myAnimation {
+     from {
+	       width: 100px;
+		   height: 100px;
+        }
+     to {
+          width: 200px;
+		  height: 200px;
+       }
+     }	 
+@keyframes myAnimation {
+     from {
+	       width: 100px;
+		   height: 100px;
+        }
+     to {
+          width: 200px;
+		  height: 200px;
+       }
+     }
+#myanim {
+     animation-name:myAnimation;
+	 animation-duration: 5s;
+	 animation-timing-function:ease-in-out;
+	 animation-iteration-count:infinite;
+}	
+
+
