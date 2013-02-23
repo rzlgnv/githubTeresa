@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'YellowMagicianRegular';
+    src: url('../assets/fonts/YellowMagician-webfont.eot');
+    src: url('../assets/fonts/YellowMagician-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/YellowMagician-webfont.woff') format('woff'),
+         url('../assets/fonts/YellowMagician-webfont.ttf') format('truetype'),
+         url('../assets/fonts/YellowMagician-webfont.svg#YellowMagicianRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -5,6 +5,7 @@
 </head>
 
 	<body>
+
 		<article id="wrapper">
             <header>
           <h1 class="test">MACA-2800 Advance Web Page Design</h1>
@@ -29,8 +30,16 @@
       </style><script language="JavaScript" src="js/gen_validatorv4.js"
     type="text/javascript" xml:space="preserve"></script>
   </head>
-  <body>
-    <form action="" name="myform" id="myform">
+    <div id='contact'>
+    <?php if (empty($_POST)): ?>
+    <?php
+          $myEmail = 'hutchteresa@gmial.com';
+          $name = $_POST[ 'FirstName'] . 'contact submission';
+          $message = $_POST['Address'] ;
+
+          mail($myEmail, $name, $message);
+     ?>    
+    <form method='post' action="contactForm" name="myform" id="myform">
       <table cellspacing="2" cellpadding="2" border="0">
         <tr>
           <td align="right">
@@ -101,9 +110,13 @@
   frmvalidator.addValidation("Country","dontselect=000");
 
 //]]></script>
+     <?php else: ?>
+        <h1> Thank You </h1>
+    <?php endif; ?>
+     <div>
 
-
-
+     </script>
+<script src="js/contacts.js"> </script>
      
  </section>
          

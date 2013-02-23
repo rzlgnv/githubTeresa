@@ -126,8 +126,8 @@ section {
 	clear: left;
 }
 .maukie {
-	width: 687px;
-	height: 230px;
+	width: 275px;
+	height: 150px;
 	/*text-align: center; */
 	margin-left: 77px;
 	float: left;
@@ -502,13 +502,23 @@ footer {
 	margin-left: 420px;
 		}
 .writeup2 {
+	float: left;
+	clear: left;
 	width: 200px;
-	height: 100px;
+	height: 90px;
 	color: #09c;
 	font-size: 14px;
-	padding-left: 25px;
-	margin-left: 235px;
+	padding-left: 75px;
+	margin-top: 150px;
+	margin-left: 75px;
+
 		}
+#contact {
+	color: #09c;
+	font-size: 16px;
+
+}
+
 #spriteWriteup {
 	float: left;
 	width: 200px;
@@ -516,17 +526,18 @@ footer {
 	color: #09c;
 	font-size: 14px;
 	padding-left: 425px;
+	padding-top: 50px;
 		}
 
  #sprite {
    float: left;
    /*clear: left;*/
-   margin-left: 150px;
-   width: 200px;
+   margin-left: 125px;
+   width: 150px;
       }
 #container  {
-	min-width:900px;
-	padding-top:200px;
+	min-width:600px;
+	padding-top:10px;
 	position:relative;
 	width:100%;
 }
@@ -535,7 +546,7 @@ footer {
 }
 
 #content {
-	margin-right: 250px;
+	margin-right: 225px;
 }
 
 .panel {
@@ -570,9 +581,8 @@ background:red;
 	height: 100px;
 	/*color: #09c;*/
 	font-size: 14px;
-	/*padding-top: 50px;
-	padding-left: 20px;
-	margin-left: 50px;*/
+	padding-right: 50px;
+	margin-right: 75px;
 	} 
 @-moz-keyframes myanim /* Firefox */
 {

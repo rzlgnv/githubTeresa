@@ -1,10 +1,9 @@
-<style><script language="JavaScript" >
+</style><script language="JavaScript" src="js/gen_validatorv4.js"
     type="text/javascript" xml:space="preserve"></script>
   </head>
   <body>
-    <?php if (empty($_POST)): ?>
-    <form method="post"  action="mac2800/home" name="myform" id="myform">
-            <table cellspacing="2" cellpadding="2" border="0">
+    <form action="" name="myform" id="myform">
+      <table cellspacing="2" cellpadding="2" border="0">
         <tr>
           <td align="right">
             First Name
@@ -53,13 +52,9 @@
         </tr>
       </table>
     </form><script language="JavaScript" type="text/javascript"
-     <?php else: ?>
-        <h1> Thank You </h1>
-        <p> I will contact you as soon as possible</p>
-    <?php endif; ?>
     xml:space="preserve">//<![CDATA[
 //You should create the validator only after the definition of the HTML form
-  //var frmvalidator  = new Validator("myform");
+  var frmvalidator  = new Validator("myform");
   frmvalidator.addValidation("FirstName","req","Please enter your First Name");
   frmvalidator.addValidation("FirstName","maxlen=20",	"Max length for FirstName is 20");
   frmvalidator.addValidation("FirstName","alpha","Alphabetic chars only");
@@ -71,7 +66,10 @@
   frmvalidator.addValidation("Email","req");
   frmvalidator.addValidation("Email","email");
   
- 
+  frmvalidator.addValidation("Phone","maxlen=50");
+  frmvalidator.addValidation("Phone","numeric");
+  
+  frmvalidator.addValidation("Address","maxlen=50");
+  frmvalidator.addValidation("Country","dontselect=000");
 
 //]]></script>
-<script src="js/contact.js"> </script>

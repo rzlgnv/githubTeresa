@@ -198,7 +198,26 @@ function add_validation(itemname, descriptor, errstr)
     } //if
     var itemobj = this.formobj[itemname];
 
+    if (itemobj.length && isNaN(itemobj.selectedIndex))
+    //for radio button; don't do for 'select' item
+    {
+        itemobj = itemobj[0];
     }
+    if (!itemobj)
+    {
+        alert("Error: Couldnot get the input object named: " + itemname);
+        return;
+    }
+    if (true == this.validate_on_killfocus)
+    {
+        itemobj.onblur = handle_item_on_killfocus;
+    }
+    if (!itemobj.validationset)
+    {
+        itemobj.validationset = new ValidationSet(itemobj, this.show_errors_together);
+    }
+    itemobj.validationset.add(descriptor, errstr, condition);
+    itemobj.validatorobj = this;
 }
 
 function handle_item_on_killfocus()

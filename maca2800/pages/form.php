@@ -1,8 +1,19 @@
-</style><script language="JavaScript" src="js/gen_validatorv4.js"
+<script language="JavaScript" >
     type="text/javascript" xml:space="preserve"></script>
   </head>
   <body>
-    <form action="" name="myform" id="myform">
+    <div id='contact'>
+    <?php if (empty($_POST)): ?>
+    <?php
+          $myEmail = 'hutchteresa@gmial.com';
+          $name = $_POST[ 'FirstName'] . 'contact submission';
+          $message = $_POST['Address'] ;
+
+          mail($myEmail, $name, $message);
+     ?>    
+
+
+    <form method= 'post' action="form" name="myform" id="myform">
       <table cellspacing="2" cellpadding="2" border="0">
         <tr>
           <td align="right">
@@ -51,25 +62,14 @@
           </td>
         </tr>
       </table>
-    </form><script language="JavaScript" type="text/javascript"
-    xml:space="preserve">//<![CDATA[
-//You should create the validator only after the definition of the HTML form
-  var frmvalidator  = new Validator("myform");
-  frmvalidator.addValidation("FirstName","req","Please enter your First Name");
-  frmvalidator.addValidation("FirstName","maxlen=20",	"Max length for FirstName is 20");
-  frmvalidator.addValidation("FirstName","alpha","Alphabetic chars only");
-  
-  frmvalidator.addValidation("LastName","req","Please enter your Last Name");
-  frmvalidator.addValidation("LastName","maxlen=20","Max length is 20");
-  
-  frmvalidator.addValidation("Email","maxlen=50");
-  frmvalidator.addValidation("Email","req");
-  frmvalidator.addValidation("Email","email");
-  
-  frmvalidator.addValidation("Phone","maxlen=50");
-  frmvalidator.addValidation("Phone","numeric");
-  
-  frmvalidator.addValidation("Address","maxlen=50");
-  frmvalidator.addValidation("Country","dontselect=000");
+    </form><script language="JavaScript" type="text/javascript">
+    
 
-//]]></script>
+    <?php else: ?>
+        <h1> Thank You </h1>
+        <p> I will contact you as soon as possible</p>
+    <?php endif; ?>
+     <div>
+
+     </script>
+<script src="js/contacts.js"> </script>
