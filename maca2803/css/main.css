@@ -127,9 +127,9 @@ section {
 }
 .maukie {
 	width: 275px;
-	height: 130px;
+	height: 150px;
 	/*text-align: center; */
-	margin-left: 60px;
+	margin-left: 77px;
 	float: left;
 	clear: left;
 }
@@ -505,20 +505,17 @@ footer {
 	float: left;
 	clear: left;
 	width: 200px;
-	height:120px;
+	height: 90px;
 	color: #09c;
-	background: white;
-	text-align: center;
 	font-size: 14px;
-	margin-top: 135px;
-	margin-left: 250px;
+	padding-left: 75px;
+	margin-top: 150px;
+	margin-left: 75px;
 
 		}
 #contact {
 	color: #09c;
 	font-size: 16px;
-	padding-bottom: 100px;
-	margin-bottom: 100px;
 
 }
 
@@ -528,9 +525,8 @@ footer {
 	height: 100px;
 	color: #09c;
 	font-size: 14px;
-	padding-left: 450px;
-	padding-top: 45px;
-	padding-bottom: 100px;
+	padding-left: 425px;
+	padding-top: 50px;
 		}
 
  #sprite {
@@ -561,9 +557,9 @@ footer {
   float: left;
   clear: left;
  width: 300px;
- height: 700px;
+ height: 500px;
   margin-left: 150px;
-  padding-bottom: 100px;
+  margin-bottom: 200px;
   color: #09c;
 
 }
@@ -572,8 +568,7 @@ footer {
 float: right;
 margin-right: 310px;
 width:200px;
-height:120px;
-margin-top: 140px;
+height:150px;
 background:red;
 	-moz-animation:myanim 5s; /* Firefox */
 	-webkit-animation:myanim 5s; /* Safari and Chrome */
@@ -586,7 +581,7 @@ background:red;
 	height: 100px;
 	/*color: #09c;*/
 	font-size: 14px;
-	padding-right: 40px;
+	padding-right: 50px;
 	margin-right: 75px;
 	} 
 @-moz-keyframes myanim /* Firefox */

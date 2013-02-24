@@ -201,8 +201,8 @@
                 <button onclick="$('#bird').spToggle();">.spToggle()</button>
                 <button onclick="$('#bird').spState(1);">.spState(1)</button>
                 <button onclick="$('#bird').spState(2);">.spState(2)</button>
-                <img src="assets/images/bird-forward-back.png" alt='bird' border="0" />
-             
+                <img src="assets/images/bird-forward-back.png" border="0" />
+                </p>
     
             </div>
             <div id="panel4" class="panel">

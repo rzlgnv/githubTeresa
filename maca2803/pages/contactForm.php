@@ -24,15 +24,22 @@
              <!-- End css3menu.com BODY section -->
             </nav>
         </header>
+
             
 <section>
       </style><script language="JavaScript" src="js/gen_validatorv4.js"
     type="text/javascript" xml:space="preserve"></script>
-  
-  <?php if (empty($_POST)): ?> 
-     
-     </head>
-    <form method='post' action="contactForm" id="myform">
+  </head>
+    <div id='contact'>
+    <?php if (empty($_POST)): ?>
+    <?php
+          $myEmail = 'hutchteresa@gmail.com';
+          $name = $_POST[ 'FirstName'] . 'contact submission';
+          $message = $_POST['Address'] ;
+
+          mail($myEmail, $name, $message);
+     ?>    
+    <form method='post' action="contactForm" name="myform" id="myform">
       <table cellspacing="2" cellpadding="2" border="0">
         <tr>
           <td align="right">
@@ -77,7 +84,7 @@
                 <tr>
           <td align="right"></td>
           <td>
-            <input type="submit" value="Send" />
+            <input type="submit" value="Submit" />
           </td>
         </tr>
       </table>
@@ -104,9 +111,10 @@
 
 //]]></script>
      <?php else: ?>
-        <h1> Thank You! - I'll contact you sooon.</h1>
+        <h1> Thank You </h1>
     <?php endif; ?>
-    
+     <div>
+
      </script>
 <script src="js/contacts.js"> </script>
      

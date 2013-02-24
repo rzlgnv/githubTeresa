@@ -5,7 +5,7 @@
     <div id='contact'>
     <?php if (empty($_POST)): ?>
     <?php
-          $myEmail = 'hutchteresa@gmail.com';
+          $myEmail = 'hutchteresa@gmial.com';
           $name = $_POST[ 'FirstName'] . 'contact submission';
           $message = $_POST['Address'] ;
 
