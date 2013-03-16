@@ -1,0 +1,8 @@
+#myBox {
+
+width: 200px;
+height: 200px;
+background-color: red;
+-moz-transition:margin-left 0.5s;
+
+}
